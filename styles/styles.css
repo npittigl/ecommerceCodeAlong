@@ -228,6 +228,8 @@ html {
 
 /* site fonts */
 /* site colours */
+/* site fonts */
+/* site colours */
 /* import Jakarta Sans font */
 @font-face {
   font-family: "Jakarta Sans";
@@ -317,4 +319,92 @@ a {
   color: inherit;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+/* site fonts */
+/* site colours */
+.wrapper {
+  width: 90%;
+  max-width: 1260px;
+  margin: 0 auto;
+}
+
+button {
+  color: #084b6d;
+  background-color: transparent;
+  padding: 10px 36px;
+  border: 2px solid #084b6d;
+  font-size: 0.8rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+  text-align: center;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+button:hover, button:focus {
+  background-color: #084b6d;
+  color: #fff;
+  border: 2px solid #fff;
+}
+button.secondary {
+  background-color: transparent;
+  border-color: #fff;
+  color: #fff;
+  padding: 0px 12px;
+}
+button.secondary:hover, button.secondary:focus {
+  background-color: #fff;
+  color: #084b6d;
+}
+button.solid {
+  color: #fff;
+  background-color: #084b6d;
+}
+button.solid:hover, button.solid:focus {
+  color: #084b6d;
+  background-color: #fff;
+}
+button.menuIcon {
+  border: none;
+  padding: 0;
+  display: inherit;
+}
+button.menuIcon:hover {
+  background-color: transparent;
+}
+button.menuIcon:focus {
+  background-color: transparent;
+}
+
+a.button {
+  color: #084b6d;
+  background-color: transparent;
+  padding: 18px 36px;
+  border: 2px solid #084b6d;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+a.button:hover, a.button:focus {
+  background-color: #084b6d;
+  color: #fff;
+}
+
+.skipLink {
+  font-size: 1rem;
+  padding: 10px;
+  background-color: #fff;
+  color: #084b6d;
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  text-align: center;
+  width: 100%;
+  left: -100%;
+}
+.skipLink:focus {
+  left: 0;
 }
