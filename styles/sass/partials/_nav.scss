@@ -16,3 +16,61 @@
         left: 0;
     }
 }
+
+// Nav Bar
+.navBar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid rgba(8, 75, 109, 0.08);
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+    }
+}
+
+.searchCart {
+    display: flex;
+    gap: 15px;
+    // .menuIcon,
+    // .bag {
+    //     margin-right: 15px;
+    // }
+}
+
+.counter {
+    p {
+        background-color: $primary;
+        color: #fff;
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+        text-align: center;
+    }
+}
+
+// Slide Out Nav
+.slideOutNav {
+    height: 100vh;
+    width: 100%;
+    max-width: 500px;
+    z-index: 20;
+    background-color: $primary;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    // left: -500px;
+    padding: 35px 50px;
+
+    .buttonContainer {
+        display: flex;
+        justify-content: flex-end;
+
+        button {
+            padding: 10px 0 10px 20px;
+        }
+    }
+}
