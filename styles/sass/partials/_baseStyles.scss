@@ -7,6 +7,12 @@
     margin: 0 auto;
 }
 
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+
 button {
     // Default button styles
     color: $primary;
