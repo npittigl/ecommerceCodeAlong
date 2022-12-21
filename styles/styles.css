@@ -389,6 +389,7 @@ a.button {
   padding: 18px 36px;
   border: 2px solid #084b6d;
   font-size: 0.8rem;
+  font-weight: bold;
   line-height: 1.2rem;
   text-align: center;
   -webkit-transition: 0.3s;
@@ -401,7 +402,7 @@ a.button:hover, a.button:focus {
 a.solid {
   color: #fff;
   background-color: #084b6d;
-  padding: 10px 36px;
+  padding: 18px 36px;
   border: 2px solid #084b6d;
   font-size: 0.8rem;
   font-weight: bold;
