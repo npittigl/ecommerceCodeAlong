@@ -63,12 +63,8 @@ button {
         border: none;
         padding: 0;
         display: inherit;
-        &:hover {
-            background-color: transparent;
-        }
-        &:focus {
-            background-color: transparent;
-        }
+        &:hover { background-color: transparent; }
+        &:focus { background-color: transparent; }
     }
 }
 
@@ -88,6 +84,24 @@ a {
         &:focus {
             background-color: $primary;
             color: $solidWhite;
+        }
+    }
+
+    // Styles for anchor tags with solid class
+    &.solid {
+        color: $solidWhite;
+        background-color: $primary;
+        padding: 10px 36px;
+        border: 2px solid $primary;
+        font-size: 0.8rem;
+        font-weight: bold;
+        line-height: 1.2rem;
+        text-align: center;
+
+        &:hover,
+        &:focus {
+            color: $primary;
+            background-color: $solidWhite;
         }
     }
 }
