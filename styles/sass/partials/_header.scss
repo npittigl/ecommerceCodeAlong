@@ -19,3 +19,24 @@ header {
         }
     }
 }
+
+// Contact page header
+.contactHeader {
+    background-color: $quaternary;
+    padding-top: 120px;
+    text-align: center;
+    .wrapper {
+        padding-bottom: 40px;
+    }
+
+}
+
+// stylistic white wave after header -> also why padding-bottom is on wrapper and not .contactHeader
+.contactHeader::after {
+    content: "";
+    width: 100%;
+    height: 150px;
+    background-image: url(../assets/wave.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 150px;
+}
